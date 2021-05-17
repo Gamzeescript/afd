@@ -1,5 +1,6 @@
-FormaProc.class
-com/informatica3/AFD.class
-com/informatica3/AFN.class
+com/informatica3/GramaticaAlpha.class
+AFD.class
+Gramatica.class
+regla.class
 com/informatica3/App.class
 com/informatica3/GestionArchivos.class

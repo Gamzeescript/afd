@@ -1,10 +1,12 @@
 package com.informatica3;
+
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
+
 public class LogicaPrograma{
     
    private String pathGramatica;
@@ -12,6 +14,7 @@ public class LogicaPrograma{
    private FormaProc tipoProcesamiento;
    private String archivoSalida;
    private String pathCuerdas;
+
    
 
    public LogicaPrograma(String[] args){
@@ -44,9 +47,12 @@ public class LogicaPrograma{
 
    private String procesarAfn(String lineaActual){
       return "afn-"+lineaActual;
+      
+             
    }
 
    private String procesarCheck(String lineaActual){
+
       return "check-"+lineaActual+pathCuerdas;
    }
 
