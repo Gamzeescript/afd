@@ -1,3 +1,6 @@
 {
-    "discord.enabled": true
+    "discord.enabled": true,
+  
+   // "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
+    
 }
