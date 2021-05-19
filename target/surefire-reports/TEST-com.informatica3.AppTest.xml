@@ -1,61 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.informatica3.AppTest" time="0.071" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.informatica3.AppTest" time="0.117" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/gns3/Documents/work/afd-project/afd/target/test-classes:/home/gns3/Documents/work/afd-project/afd/target/classes:/home/gns3/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/gns3/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.class.path" value="/home/kali/Documents/VSCodeProjects/afd/afd/target/test-classes:/home/kali/Documents/VSCodeProjects/afd/afd/target/classes:/home/kali/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/kali/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="swing.aatext" value="true"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
     <property name="user.timezone" value=""/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/gns3/Documents/work/afd-project/afd/target/surefire/surefirebooter5267890188007442294.jar /home/gns3/Documents/work/afd-project/afd/target/surefire 2021-05-17T17-30-01_137-jvmRun1 surefire5049400444662823927tmp surefire_05941489306879707515tmp"/>
+    <property name="sun.boot.library.path" value="/home/kali/Documents/jdk-11.0.11+9/lib"/>
+    <property name="sun.java.command" value="/home/kali/Documents/VSCodeProjects/afd/afd/target/surefire/surefirebooter15617234494142543746.jar /home/kali/Documents/VSCodeProjects/afd/afd/target/surefire 2021-05-17T01-13-01_907-jvmRun1 surefire17418692252963067522tmp surefire_011583385699279308631tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/gns3/Documents/work/afd-project/afd/target/test-classes:/home/gns3/Documents/work/afd-project/afd/target/classes:/home/gns3/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/gns3/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/kali/Documents/VSCodeProjects/afd/afd/target/test-classes:/home/kali/Documents/VSCodeProjects/afd/afd/target/classes:/home/kali/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/kali/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/gns3"/>
+    <property name="user.home" value="/home/kali"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2021-04-20"/>
-    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="java.home" value="/home/kali/Documents/jdk-11.0.11+9"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/gns3/Documents/work/afd-project/afd"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="basedir" value="/home/kali/Documents/VSCodeProjects/afd/afd"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/gns3/Documents/work/afd-project/afd/target/surefire/surefirebooter5267890188007442294.jar"/>
+    <property name="surefire.real.class.path" value="/home/kali/Documents/VSCodeProjects/afd/afd/target/surefire/surefirebooter15617234494142543746.jar"/>
+    <property name="awt.useSystemAAFontSettings" value="on"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
-    <property name="user.name" value="gns3"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="kali"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.4.0-70-generic"/>
+    <property name="os.version" value="5.10.0-kali7-amd64"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/gns3/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="/home/kali/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.11"/>
-    <property name="user.dir" value="/home/gns3/Documents/work/afd-project/afd"/>
+    <property name="user.dir" value="/home/kali/Documents/VSCodeProjects/afd/afd"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Ubuntu"/>
-    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.18.04"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.informatica3.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.informatica3.AppTest" time="0.006"/>
 </testsuite>
